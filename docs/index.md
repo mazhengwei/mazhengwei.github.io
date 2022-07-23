@@ -2,7 +2,7 @@
 home: true 
 heroImage: /img/logo.png
 heroText: 马哥秘技
-tagline: 🚀一款简洁高效的VuePress 知识管理&博客 主题
+tagline: 🚀千里之堤毁于蚁穴
 #actionText: 开始使用 →
 #actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
