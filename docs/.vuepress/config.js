@@ -24,9 +24,9 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '指南', link: '/pages/a2f161/', items: [
-          { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
-          { text: '介绍', link: '/pages/a2f161/' },
+        text: '指南', link: '/pages/a3d00f/', items: [
+          { text: '主题初衷与诞生', link: '/pages/e693fc/' },
+          { text: '介绍', link: '/pages/a3d00f/' },
           { text: '快速上手', link: '/pages/793dcb/' },
           { text: '目录结构', link: '/pages/2f674a/' },
           { text: '核心配置和约定', link: '/pages/33d574/' },
@@ -57,14 +57,15 @@ module.exports = {
           { text: '评论栏', link: '/pages/ce175c/' },
         ]
       },
-      { text: '资源', link: '/pages/db78e2/' },
-      { text: '案例', link: '/pages/5d571c/' },
-      { text: '问答', link: '/pages/9cc27d/' },
-      { text: '💖支持', link: '/pages/1b12ed/' },
+      {text: '索引',items: [
+          {text: '分类', link: '/categories/'},
+          {text: '标签', link: '/tags/'},
+          {text: '归档', link: '/archives/'}
+        ]}
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/gif/猫1.gif', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'mazhengwei/mazhengwei.github.io', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
@@ -100,8 +101,8 @@ module.exports = {
     },
     blogger: {
       avatar: "/img/gif/猫4.gif",
-      name: "mazhengwei",
-      slogan: "封装自己"
+      name: "马正伟",
+      slogan: "做有灵魂的搬砖人"
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -125,7 +126,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2022, // 博客创建年份
-      copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
+      copyrightInfo: 'mazhengwei', // 博客版权信息，支持a标签
     },
     htmlModules,
   },
