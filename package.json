@@ -1,5 +1,5 @@
 {
-  "name": "mage",
+  "name": "learning",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs debug",
