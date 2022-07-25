@@ -68,6 +68,27 @@ module.exports = [
             },
         }
     ],
+    // [
+    //     'vuepress-plugin-comment',
+    //     {
+    //         // 具体参数请看官网：https://valine.js.org/
+    //         choosen: 'valine',
+    //         // options 选项中的所有参数，会传给 Valine 的配置
+    //         options: {
+    //             el: '#valine-vuepress-comment',
+    //             appId: 'L0K9wC2Q47RtflDcyd2Ws07s-gzGzoHsz',
+    //             appKey: '32J3DVTqNA60JnnArEoNinBM',
+    //             placeholder: '请留下你的足迹 ~~ 备注下昵称哦~~',
+    //             // 有 URL、''、mp、identicon、monsterid、wavatar、retro、robohash、hide 头像选择，具体头像是什么样子，请访问 https://valine.js.org/avatar.html
+    //             avatar: 'monsterid',	// 默认头像
+    //             meta: ['nick'],
+    //             pageSize: 10,   // 评论列表分页，每页条数
+    //             visitor: true,    // 文章访问量统计
+    //             recordIP: false,   // 是否记录评论者 IP
+    //             enableQQ: true,   // 是否启用昵称框自动获取 QQ 昵称和 QQ 头像, 默认关闭
+    //         }
+    //     }
+    // ]
     [
         'vuepress-plugin-comment',
         {
@@ -88,6 +109,6 @@ module.exports = [
                     '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
             }
         }
-    ]
+    ],
 ]
 
