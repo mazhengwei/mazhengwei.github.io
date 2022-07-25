@@ -95,14 +95,13 @@ module.exports = [
             choosen: 'gitalk',
             options: {
                 clientID: '5a24e7e6b0bf8d22beee',  // 你的client ID
-                clientSecret: 'ed8eb7416f5f73d3740c1c0a570c70163c6b0829',  // 你的client secret
+                clientSecret: '1f9f1c35f82810a4735598830abb86f1577c3a42',  // 你的client secret
                 repo: 'mazhengwei.github.io', // GitHub 仓库
                 owner: 'mazhengwei', // GitHub仓库所有者
                 admin: ['mazhengwei'], // 对仓库有写权限的人
-                // distractionFreeMode: true,
+                distractionFreeMode: false,
                 pagerDirection: 'last', // 'first'正序 | 'last'倒序
                 // 下面的不用修改，默认这些即可
-                proxy: 'http://pigass.cn/proxy/https://github.com/login/oauth/access_token',
                 id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
                 title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
                 labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
@@ -110,6 +109,6 @@ module.exports = [
                     '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
             }
         }
-    ],
+    ]
 ]
 
