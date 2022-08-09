@@ -3,12 +3,18 @@ const baiduCode = require("./baiduCode"); // 百度统计hm码
 const dayjs = require("dayjs");
 module.exports = [
     [require('../plugins/love-me'), { // 鼠标点击爱心特效
-        color: '#11a8cd', // 爱心颜色，默认随机色
+        color: '#DC143C', // 爱心颜色，默认随机色#11a8cd
         excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     }],
 
     ['fulltext-search'], // 全文搜索
-
+    // 自定义插件
+    [
+        {
+            name: 'custom-plugins',
+            globalUIComponents: ["PageInfo","BlockToggle"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        }
+    ],
     // ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
     //   thirdparty: [ // 可选，默认 []
     //     {
@@ -68,27 +74,26 @@ module.exports = [
             },
         }
     ],
-    // [
-    //     'vuepress-plugin-comment',
-    //     {
-    //         // 具体参数请看官网：https://valine.js.org/
-    //         choosen: 'valine',
-    //         // options 选项中的所有参数，会传给 Valine 的配置
-    //         options: {
-    //             el: '#valine-vuepress-comment',
-    //             appId: 'L0K9wC2Q47RtflDcyd2Ws07s-gzGzoHsz',
-    //             appKey: '32J3DVTqNA60JnnArEoNinBM',
-    //             placeholder: '请留下你的足迹 ~~ 备注下昵称哦~~',
-    //             // 有 URL、''、mp、identicon、monsterid、wavatar、retro、robohash、hide 头像选择，具体头像是什么样子，请访问 https://valine.js.org/avatar.html
-    //             avatar: 'monsterid',	// 默认头像
-    //             meta: ['nick'],
-    //             pageSize: 10,   // 评论列表分页，每页条数
-    //             visitor: true,    // 文章访问量统计
-    //             recordIP: false,   // 是否记录评论者 IP
-    //             enableQQ: true,   // 是否启用昵称框自动获取 QQ 昵称和 QQ 头像, 默认关闭
-    //         }
-    //     }
-    // ]
+    [
+        'vuepress-plugin-comment',
+        {
+            // 具体参数请看官网：https://valine.js.org/
+            choosen: 'valine',
+            // options 选项中的所有参数，会传给 Valine 的配置
+            options: {
+                el: '#valine-vuepress-comment',
+                appId: 'L0K9wC2Q47RtflDcyd2Ws07s-gzGzoHsz',
+                appKey: '32J3DVTqNA60JnnArEoNinBM',
+                placeholder: '请留下你的足迹 ~~ 备注下昵称哦~~',
+                // 有 URL、''、mp、identicon、monsterid、wavatar、retro、robohash、hide 头像选择，具体头像是什么样子，请访问 https://valine.js.org/avatar.html
+                avatar: 'monsterid',	// 默认头像
+                pageSize: 10,   // 评论列表分页，每页条数
+                visitor: true,    // 文章访问量统计
+                recordIP: false,   // 是否记录评论者 IP
+                enableQQ: true,   // 是否启用昵称框自动获取 QQ 昵称和 QQ 头像, 默认关闭
+            }
+        }
+    ],
     // [
     //     'vuepress-plugin-comment',
     //     {
@@ -109,6 +114,7 @@ module.exports = [
     //                 '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
     //         }
     //     }
-    // ]
+    // ],
+
 ]
 

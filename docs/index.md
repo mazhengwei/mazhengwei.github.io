@@ -19,3 +19,7 @@ bannerBg: /img/bg.jpg # auto => 网格纹背景(有bodyBgImg时无背景)，默�
 #postList: detailed
 #simplePostListLength: 10
 ---
+
+<ClientOnly>
+  <WebInfo/>
+</ClientOnly>
