@@ -18,48 +18,6 @@
  * ②注：windowLB 和 windowRB：1.展示区块最大宽高200px*400px。2.请给自定义元素定一个不超过200px*400px的宽高。3.在屏幕宽度小于960px时无论如何都不会显示。
  */
 
-
-module.exports = {
-  // 万维广告
-  pageT: `
-    <div class="wwads-cn wwads-horizontal page-wwads" data-id="136"></div>
-    <style>
-      .page-wwads{
-        width:100%!important;
-        min-height: 0;
-        margin: 0;
-      }
-      .page-wwads .wwads-img img{
-        width:80px!important;
-      }
-      .page-wwads .wwads-poweredby{
-        width: 40px;
-        position: absolute;
-        right: 25px;
-        bottom: 3px;
-      }
-      .wwads-content .wwads-text, .page-wwads .wwads-text{
-        height: 100%;
-        padding-top: 5px;
-        display: block;
-      }
-  </style>
-  `,
-  // windowRB: `
-  //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
-  //   min-width: auto;min-height:auto;"></div>
-  //   <style>
-  //     .windowRB{ padding: 0;}
-  //     .windowRB .wwads-img{margin-top: 10px;}
-  //     .windowRB .wwads-content{margin: 0 10px 10px 10px;}
-  //     .custom-html-window-rb .close-but{
-  //       display: none;
-  //     }
-  //   </style>
-  // `
-}
-
-
 // module.exports = {
 //   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
@@ -69,3 +27,17 @@ module.exports = {
 //   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 // }
+
+module.exports = {
+  homeSidebarB:
+  `<div style="padding: 0.95rem">
+  <p style="
+    color: var(--textColor);
+    opacity: 0.9;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+  ">公众号</p>
+  <img src="/img/png/公众号.png"  style="width:100%;" />
+  </div>`,
+}
