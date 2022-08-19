@@ -43,7 +43,7 @@ module.exports = {
     },
     blogger: {
         avatar: "/img/gif/猫4.gif",
-        name: "马正伟",
+        name: "馬正偉",
         slogan: "做有灵魂的搬砖人"
     },
     // 站点配置（首页 & 文章页）
