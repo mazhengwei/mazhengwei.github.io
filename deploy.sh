@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # 添加自定义域名
-echo "mazhengwei.cn" > CNAME
+echo "blog.mazhengwei.cn" > CNAME
 # 如果手运行该脚本，则执行if里的，如果是GitHub自动执行该脚本，则是else里的
 if [ -z "$GITHUB_TOKEN" ]; then
     msg='deploy'
