@@ -2,7 +2,7 @@
 module.exports = [
     { text: '首页', link: '/' },
     { text: 'Go', link: '/go/', items: [
-        { text: 'Go基础' },
+        { text: 'Go基础' , link: '/go/base/'},
         { text: '流程控制' },
         { text: '函数' },
         { text: '方法' },
