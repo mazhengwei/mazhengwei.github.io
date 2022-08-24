@@ -38,6 +38,6 @@ module.exports = {
     font-weight: bold;
     margin: 0 0 8px 0;
   ">公众号</p>
-  <img src="/img/png/公众号.png"  style="width:100%;" />
+  <img src="https://gitee.com/mazhengwei/blogImage/raw/master/img/公众号.png"  style="width:100%;" />
   </div>`,
 }
