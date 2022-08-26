@@ -39,6 +39,8 @@ module.exports = [
     //     }
     // ],
 
+    ['vuepress-plugin-baidu-autopush'],     //百度推送
+    
     [
         '@vuepress/google-analytics',
         {
