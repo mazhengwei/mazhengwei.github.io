@@ -1,5 +1,4 @@
 // plugins
-const baiduCode = require("./baiduCode"); // 百度统计hm码
 const dayjs = require("dayjs");
 module.exports = [
     [require('../plugins/love-me'), { // 鼠标点击爱心特效
@@ -36,10 +35,16 @@ module.exports = [
     [
         'vuepress-plugin-baidu-tongji', // 百度统计
         {
-            hm: baiduCode || '01293bffa6c3962016c08ba685c79d78'
+            hm: '97d8f4d1eb18de6174cd0714b4872cba',
         }
     ],
 
+    [
+        '@vuepress/google-analytics',
+        {
+            ga: 'G-G7MRKY89Y2'
+        }
+    ],
     ['one-click-copy', { // 代码块复制按钮
         copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
         copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
