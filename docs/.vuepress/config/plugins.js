@@ -42,7 +42,7 @@ module.exports = [
     [
         '@vuepress/google-analytics',
         {
-            ga: 'G-G7MRKY89Y2'
+            ga: 'UA-238817295-1'
         }
     ],
     ['one-click-copy', { // 代码块复制按钮
