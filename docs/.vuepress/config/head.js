@@ -9,17 +9,17 @@ module.exports = [
     // 添加meta，解决文章统计访问量数据不准确问题
     ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
     ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }], // 阿里在线矢量图
-    [
-        'script',
-        {},
-        `
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?97d8f4d1eb18de6174cd0714b4872cba";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-        })();
-        `
-    ]
+    // [
+    //     'script',
+    //     {},
+    //     `
+    //     var _hmt = _hmt || [];
+    //     (function() {
+    //         var hm = document.createElement("script");
+    //         hm.src = "https://hm.baidu.com/hm.js?97d8f4d1eb18de6174cd0714b4872cba";
+    //         var s = document.getElementsByTagName("script")[0]; 
+    //         s.parentNode.insertBefore(hm, s);
+    //     })();
+    //     `
+    // ]
 ]

@@ -12,20 +12,20 @@ export default ({
     /**
    * 路由切换事件处理
    */
-    router.beforeEach((to, from, next) => {
-      console.log("切换路由", to.fullPath, from.fullPath);
+    // router.beforeEach((to, from, next) => {
+    //   console.log("切换路由", to.fullPath, from.fullPath);
   
-      //触发百度的pv统计
-      if (typeof _hmt != "undefined") {
-        if (to.path) {
-          _hmt.push(["_trackPageview", to.fullPath]);
-          console.log("上报百度统计", to.fullPath);
-        }
-      }
+    //   //触发百度的pv统计
+    //   if (typeof _hmt != "undefined") {
+    //     if (to.path) {
+    //       _hmt.push(["_trackPageview", to.fullPath]);
+    //       console.log("上报百度统计", to.fullPath);
+    //     }
+    //   }
   
-      // continue
-      next();
-    });
+    //   // continue
+    //   next();
+    // });
   // 用于监控在路由变化时检查广告拦截器 (to主题使用者：你可以去掉本文件的所有代码)
   if (!isServer) {
     router.afterEach(() => {
