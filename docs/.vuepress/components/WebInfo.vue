@@ -1,5 +1,4 @@
 <template>
-  <!-- Young Kbt -->
   <div class="web-info card-box">
     <div class="webinfo-title">
       <i
