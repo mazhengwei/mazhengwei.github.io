@@ -38,7 +38,7 @@ module.exports = {
     //archive: true, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-        name: 'mazhengwei', // 必需
+        name: '馬正偉', // 必需
         href: 'https://github.com/mazhengwei' // 可选的
     },
     blogger: {
