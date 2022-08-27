@@ -3,7 +3,8 @@
 module.exports = [
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/gif/猫1.gif' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'blog' }],
+    ['meta', { name: 'keywords', content: 'golang,vue,kubernetes,监控,prometheus,' }],
+    ['meta', { name: 'baidu-site-verification', content: 'code-aEaRH1jecS'}], //百度站长统计
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // chrome 85版本，为保护用户隐私，默认Referrer Policy 变成了strict-origin-when-cross-origin
     // 添加meta，解决文章统计访问量数据不准确问题
