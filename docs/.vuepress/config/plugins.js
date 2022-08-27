@@ -5,7 +5,12 @@ module.exports = [
         color: '#DC143C', // 爱心颜色，默认随机色#11a8cd
         excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     }],
-
+    [
+        'sitemap',
+        {
+            hostname: 'https://mazhengwei.cn'
+        }
+    ],
     ['fulltext-search'], // 全文搜索
     // 自定义插件
     [
