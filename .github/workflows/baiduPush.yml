@@ -10,7 +10,7 @@ name: baiduPush
 
 on:
   schedule:
-    - cron: "*/1 * * * *" # 每5分钟一次，测试用
+    - cron: "*/5 * * * *" # 每5分钟一次，测试用
 
 jobs:
   bot:

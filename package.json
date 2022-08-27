@@ -5,6 +5,7 @@
     "dev": "vuepress dev docs debug",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh",
+    "baiduPush": "node utils/baiduPush.js https://mazhengwei.cn && bash baiduPush.sh",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
     "editFm": "node utils/editFrontmatter.js"
   },
