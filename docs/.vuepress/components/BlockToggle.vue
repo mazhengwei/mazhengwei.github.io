@@ -154,7 +154,7 @@ export default {
   position: absolute;
   z-index: 3;
   top: 0.8em;
-  right: 1.05em;
+  left: 5.05em;
   color: rgba(19, 115, 155, 0.8);
   font-weight: 900;
   transition: transform 0.3s;
@@ -182,7 +182,7 @@ div[class*="language-"]::before {
   position: absolute;
   z-index: 3;
   top: 0.8em;
-  right: 1.05em;
+  left: 6.05em;
   font-size: 0.85em;
   color: rgba(16, 115, 115, 0.8);
   text-transform: uppercase;
@@ -214,7 +214,7 @@ div[class*="language-"].line-numbers-mode::after {
 .code-copy {
   position: absolute;
   top: 0.8rem;
-  right: 2.5rem;
+  right: 1.5rem;
   fill: rgba(13, 126, 126, 0.8);
   opacity: 1;
 }
