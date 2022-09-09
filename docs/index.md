@@ -1,7 +1,7 @@
 ---
 home: true
 #heroImage: /img/logo.png
-heroText: 馬正偉
+heroText: 慕言
 tagline: 🚀博观而约取，厚积而薄发。
 #actionText: 开始使用 →
 #actionLink: /pages/a2f161/
