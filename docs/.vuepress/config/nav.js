@@ -20,16 +20,16 @@ module.exports = [
     { text: '前端', link: '/frontend/', items: [
         { text: 'Vue框架学习', link: '/vue/' },
     ]},
-    { text: '数据库', link: '/database/', items: [
-        { text: 'SQL 数据库', items: [
-        { text: 'MySQL', link: '/mysql/' }
-        ]},
-        { text: 'NoSQL 数据库', items: [
-            { text: 'Redis', link: '/redis/' },
-            { text: 'ElasticSearch', link: '/es/' },
-            { text: 'MongoDB', link: '/mongodb/' },
-        ]},
-    ]},
+    // { text: '数据库', link: '/database/', items: [
+    //     { text: 'SQL 数据库', items: [
+    //     { text: 'MySQL', link: '/mysql/' }
+    //     ]},
+    //     { text: 'NoSQL 数据库', items: [
+    //         { text: 'Redis', link: '/redis/' },
+    //         { text: 'ElasticSearch', link: '/es/' },
+    //         { text: 'MongoDB', link: '/mongodb/' },
+    //     ]},
+    // ]},
     { text: '计算机基础', link: '/bases/', items: [
         { text: '数据结构', link: '/structure/'},
         { text: '算法', link: '/algorithm/'},
