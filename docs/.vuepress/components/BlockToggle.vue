@@ -184,7 +184,7 @@ div[class*="language-"]::before {
   top: 0.8em;
   left: 6.05em;
   font-size: 0.85em;
-  color: rgba(16, 115, 115, 0.8);
+  color: rgba(243, 246, 246, 0.8);
   text-transform: uppercase;
   font-weight: bold;
   width: fit-content;
@@ -215,7 +215,7 @@ div[class*="language-"].line-numbers-mode::after {
   position: absolute;
   top: 0.8rem;
   right: 1.5rem;
-  fill: rgba(13, 126, 126, 0.8);
+  fill: rgba(243, 246, 246, 0.8);
   opacity: 1;
 }
 .code-copy svg {
