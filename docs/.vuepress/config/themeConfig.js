@@ -84,7 +84,7 @@ module.exports = {
     },
     footer: { // 页脚信息
         createYear: 2022, // 博客创建年份
-        copyrightInfo: 'mazhengwei | blog', // 博客版权信息，支持a标签
+        copyrightInfo: '| <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010602013068" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/img/png/备案图标.png" style="float:left;"/>浙公网安备 33010602013068号</a>', // 博客版权信息，支持a标签
     },
     htmlModules,
 }
